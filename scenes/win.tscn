@@ -1,0 +1,57 @@
+[gd_scene load_steps=5 format=3 uid="uid://v317s4iyxwas"]
+
+[ext_resource type="Texture2D" uid="uid://bkp0ak3ryb3b6" path="res://Art Assets dUCK/Art Assets/UI/TheEnd.png" id="1_yxbqr"]
+[ext_resource type="Texture2D" uid="uid://cf86nvp7jc4c6" path="res://Art Assets dUCK/patohud.png" id="2_tylv2"]
+[ext_resource type="Texture2D" uid="uid://csxktcm3flgp4" path="res://Art Assets dUCK/Art Assets/Effects/Heart.png" id="3_5vxan"]
+[ext_resource type="Texture2D" uid="uid://bkece3218gtyk" path="res://Art Assets dUCK/Art Assets/Effects/Sparkle.png" id="4_4826q"]
+
+[node name="win" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 329.0
+offset_top = 213.0
+offset_right = 804.0
+offset_bottom = 443.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_yxbqr")
+expand_mode = 1
+
+[node name="Patohud" type="Sprite2D" parent="."]
+position = Vector2(862, 481)
+texture = ExtResource("2_tylv2")
+
+[node name="Heart" type="Sprite2D" parent="."]
+position = Vector2(154, 266)
+scale = Vector2(5.40909, 3.81818)
+texture = ExtResource("3_5vxan")
+
+[node name="Heart3" type="Sprite2D" parent="."]
+position = Vector2(609.625, 579.5)
+scale = Vector2(5.38636, 4.45455)
+texture = ExtResource("3_5vxan")
+
+[node name="Heart2" type="Sprite2D" parent="."]
+position = Vector2(965, 278)
+scale = Vector2(9.13636, 7.27273)
+texture = ExtResource("3_5vxan")
+
+[node name="Sparkle" type="Sprite2D" parent="."]
+position = Vector2(282, 134.25)
+scale = Vector2(10, 9.35714)
+texture = ExtResource("4_4826q")
+
+[node name="Sparkle2" type="Sprite2D" parent="."]
+position = Vector2(782.625, 76)
+scale = Vector2(9.89286, 9.35714)
+texture = ExtResource("4_4826q")
+
+[node name="Sparkle3" type="Sprite2D" parent="."]
+position = Vector2(241.125, 559)
+scale = Vector2(8.89286, 9.35714)
+texture = ExtResource("4_4826q")
